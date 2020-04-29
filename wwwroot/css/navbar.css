@@ -1,0 +1,103 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-SC {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212D3D;
+    color: #FFFFFF;
+}
+
+.navbar-title-SC {
+    /*position: fixed;*/
+    font: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links-SC ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links-SC {
+    height: 100%;
+}
+
+.navbar-links-SC li {
+    list-style: none;
+}
+
+.navbar-links-SC li:hover {
+    background-color: #3B4A5E;
+}
+
+.navbar-links-SC li a {
+    text-decoration: none;
+    color: #FE7134;
+    padding: 1rem;
+    display: block;
+}
+
+.toggle-menu-button-SC {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-menu-button-SC .menu-bar-SC {
+    height: 3px;
+    width: 100%;
+    background-color: #FE7134;
+    border-radius: 10px;
+}
+
+@media(max-width: 800px) {
+    .toggle-menu-button-SC {
+        display: flex;
+    }
+
+    .navbar-links-SC {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-SC{
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .navbar-links-SC ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links-SC ul li {
+        text-align: center;
+    }
+
+    .navbar-links-SC ul li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-links-SC.active{
+        display: flex;
+    }
+}
+

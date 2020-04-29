@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SuitCloud\\SuitCloud.csproj": {}
+    "C:\\Users\\Adi\\Desktop\\SUITCLOUD-master\\SuitCloud.csproj": {}
   },
   "projects": {
-    "D:\\SuitCloud\\SuitCloud.csproj": {
+    "C:\\Users\\Adi\\Desktop\\SUITCLOUD-master\\SuitCloud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SuitCloud\\SuitCloud.csproj",
+        "projectUniqueName": "C:\\Users\\Adi\\Desktop\\SUITCLOUD-master\\SuitCloud.csproj",
         "projectName": "SuitCloud",
-        "projectPath": "D:\\SuitCloud\\SuitCloud.csproj",
+        "projectPath": "C:\\Users\\Adi\\Desktop\\SUITCLOUD-master\\SuitCloud.csproj",
         "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-        "outputPath": "D:\\SuitCloud\\obj\\",
+        "outputPath": "C:\\Users\\Adi\\Desktop\\SUITCLOUD-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
